@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+    <title>
+        new page 
+    </title></head>
+    <body bgcolor="magic">
+        <div>
+        <h1 align="center">JOB FORM</h1><br>
+        <h4>ENTER YOUR DETAILS</h4>
+        <form action="/action_page.php">
+            <fieldset>
+            <label for="fname">FIRST NAME:</label><br>
+            <input type="text" id="fname" name="first name " value="abhiraj"><br>
+            <label for="lname">LAST NAME:</label><br>
+            <input type="text" id="lname" name="last name" value="abhi">
+            </fieldset>
+            <fieldset>
+                <input type="radio" id="part time " name="n1" value="part time ">
+                <label for="part time">part time </label><br>
+                <input type="radio" id="full time " name="n2" value="full time">
+                <label for="full time">full time</label>
+            </fieldset>
+            <fieldset> 
+                <input type="checkbox" id="9AM-4PM" name="n1" value="9AM-4PM">
+                <label for="9AM-4PM">9AM-4PM</label><br>
+                <input type="checkbox" id="4PM-12AM" name="n2" value="4PM-12AM">
+                <label for="4PM-12AM">4PM-12AM</label><br>
+                <input type="checkbox" id="12AM-9AM" name="n3" value="12AM-9AM">
+                <label for="12AM-9AM">12AM-9AM</label><br>
+                <input type="checkbox" id="7Am-11AM" name="n4" value="7Am-11AM">
+                <label for="7Am-11AM">7Am-11AM</label><br>
+                <input type="checkbox" id="5PM-10PM" name="n5" value="5PM-10PM">
+                <label for="5PM-10PM">5PM-10PM</label>
+
+            </fieldset>        
+            <label for="jobs">choose a job:</label>
+            <select id="jobs" name="jobs" size="1">
+                <option value="delivery staff">delivery staff</option>
+                <option value="sales excutive">sales executive</option>
+                <option value="field worker">filed worker</option>
+                <option value="security">security</option>
+            </select><br><br>
+            <label for="location">location</label>
+            <input list="places">
+            <datalist id="places">
+            <option value="trivandrum">
+                <option value="kollam">
+                    <option value="pathanamthitta">
+                    <option value="alappuzha">
+                    <option value="kottayam">
+                    <option value="eranakulam">
+                         </datalist><br><br>
+            <textarea name="message" rows="10" cols="30" >questions</textarea>
+            <fieldset>
+                <input type="button" id="submit" name="n1" value="submit">
+            </fieldset>
+    
+        </form>
+        </div>
+        <div>
+
+        </div>
+
+
+    </body>
+</html>
